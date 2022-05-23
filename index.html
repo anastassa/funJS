@@ -1,0 +1,50 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="script.js"></script>
+        <style type="text/css">
+            p, label {
+                font-size: large;
+            }
+        </style>
+        <title>FunctionJS</title>
+    </head>
+    <body>
+        <div>
+            <label>Функция, которая возвращает самую длинную строку</label>
+            <p></p>
+            <input type="text" id="arr">
+            <button onclick="MaxStr()">Получить результат</button>
+            <p id="text1"></p>
+        </div>
+
+        <div>
+            <label>Функция, которая возвращает символ, чаще всего встрещающийся в строке.</label>
+            <p></p>
+            <input type="text" id="arr1">
+            <button onclick="MaxChar()">Получить результат</button>
+            <p id="text2"></p>
+        </div>
+    
+        <div>
+            <label>Функция заменяет в строке из предыдущего задания самый часто встречающийся символ на символ, 
+                который введет пользователь</label>
+            <p></p>
+            <button onclick="MaxCharPrompt()">Получить результат</button>
+            <p id="text3"></p>
+        </div>
+
+        <div>
+            <label>Функция, проверяет: являются ли строки являются 
+                анаграммами</label>
+            <p></p>
+            <input type="text" id="arr2">
+            <button onclick="isAnagram()">Получить результат</button>
+            <p id="text4"></p>
+        </div>
+
+    </body>
+    </html>
